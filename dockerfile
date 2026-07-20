@@ -1,5 +1,7 @@
-from nginx:latest
+FROM nginx:alpine
 
-copy . /user/share/nginx/html
+COPY . /usr/share/nginx/html/
 
-expose 80
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
