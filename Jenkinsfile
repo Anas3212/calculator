@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Change DEPLOY_IP to the actual IP address of your Deploy Server
-        DEPLOY_SERVER = "ubuntu@13.60.247.255"
+        DEPLOY_SERVER = "ubuntu@13.62.101.115"
     }
 
     stages {
